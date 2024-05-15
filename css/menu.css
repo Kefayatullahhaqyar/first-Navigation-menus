@@ -1,0 +1,110 @@
+.menu ul{
+   list-style-type:none;
+   padding:0px;
+   margin:0px;
+   background-color: #333;
+   overflow:hidden;
+}
+.menu ul li a{
+    color:white;
+    text-decoration:none;
+    background-color: black;
+    display: inline-block;
+    padding:20px;
+
+}
+.menu ul li{
+    float:left;
+    border-bottom:1px solid red;
+    box-shadow: 10px 5px 10px red;
+}
+.menu .active{
+    background-color: red;
+}
+.menu ul li a:hover{
+    background-color: red;
+}
+/** this is the css of the second Menue **/
+
+.menu-1 ul{
+    list-style-type:none;
+    background-color:gray;
+    padding:0px;
+    margin:0px;
+    overflow:hidden;
+
+}
+.menu-1 ul li{
+    float:right;
+    
+}
+
+.menu-1 ul li a{
+    display:inline-block;
+    text-decoration:none;
+    color:yellow;
+    border-bottom:2px solid red;
+    padding:20px; 
+}
+.menu-1 ul li a:hover{
+    background-color: yellow;
+    color:red;
+}
+.menu-1 .active{
+    background-color:yellow;
+    color:red;
+}
+/** end second menu by name of menu-1 **/
+
+ 
+/** start third menu by name of menu-2 **/ 
+
+.menu-2{
+  border:1px solid red;
+  height:60px;
+  background-color:#333;
+}
+.menu-2 .logo{
+
+  float:left;
+
+
+ 
+}
+.menu-2 .logo h2{
+    color:red;
+    text-shadow: 5px 5px 5px red;
+    padding:0px;
+    margin:0px;
+    font-size: 50px;
+    
+}
+.menu-2 .menu-2-menu{ 
+    border-bottom:2px solid green;
+    float:right;
+}
+.menu-2 .menu-2-menu ul{
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+    background-color:black;
+    overflow:hidden;
+}
+.menu-2 .menu-2-menu ul li a{
+    color:white;
+    padding:20px;
+    display:inline-block;
+    text-decoration:none;
+    
+}
+.menu-2 .menu-2-menu ul li{
+    float:left;
+    
+}
+.active{
+    background-color: red;
+}
+.menu-2 .menu-2-menu ul li:hover{
+    background-color:red;
+    
+}
